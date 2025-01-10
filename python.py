@@ -6,4 +6,5 @@ url = "https://raw.githubusercontent.com/shahrzadhsh/Analysis-with-python/main/a
 # Reading the CSV from the URL
 df = pd.read_csv(url)
 # Displaying the first 5 rows
+print("the first 5 rows are:")
 print(df.head(5))
